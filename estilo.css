@@ -6,13 +6,12 @@ body
 {
     margin: 0px;
     padding: 0px;
-    background-color: #39aae1;
 }
 header
 {
     display: flex;
     justify-content: center;
-    height: 200px;
+    height: 125px;
     background-color: #ffffff;
 }
 .container
@@ -29,13 +28,13 @@ header
 }
 .puc
 {
-    height: 200px;
+    height: 125px;
 }
 .titulo
 {
     display: flex;
     width: 75%;
-    font-size: 50px;
+    font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
 }
@@ -63,12 +62,75 @@ nav a
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #727272;
+    color: #ffffff;
     font-family: Arial;
-    font-size: 20px;
+    font-size: 15px;
 }
 nav .active a, nav a:hover
 {
-    background-color: #39aae1;
+    background-color: #50b6e9;
     color: #ffffff;
+}
+.corpo
+{
+    display: flex;
+    justify-content: center;
+    background-color: #50b6e9;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    align-items: center;
+}
+.corpo1
+{
+    display: flex;
+    width: 990px;
+    height: 75%;
+    background-color: #fdfbdf;
+    flex-direction: column;
+
+    
+}
+.descricao
+{
+    padding:10px;
+    margin: 5px;
+}
+#titulo1
+{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.descricao p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; ;
+}
+#bannerhome
+{
+    display: flex;
+    justify-content: space-around;
+}
+#saibamais1, #saibamais2
+{   
+    margin: 15px;
+    padding: 10px;
+    width: 40%;
+    height: 400px;
+    background-color: white;
+}
+.rodape
+{
+    height: 70px;
+    background-color: white;
+}
+#bannerhome h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+#bannerhome p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
