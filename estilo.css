@@ -85,7 +85,7 @@ nav .active a, nav a:hover
 {
     display: flex;
     width: 990px;
-    height: 75%;
+    height: auto;
     background-color: #fdfbdf;
     flex-direction: column;
 
@@ -115,12 +115,16 @@ nav .active a, nav a:hover
     padding: 10px;
     width: 40%;
     height: 400px;
-    background-color: white;
+    background-color: rgb(248, 253, 239);
 }
 .rodape
 {
-    height: 70px;
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    height: 40px;
+    background-color: rgb(201, 196, 247);
 }
 #bannerhome h1
 {
@@ -138,10 +142,11 @@ nav .active a, nav a:hover
     font-size: 12px;
     text-decoration: none;
 }
-.rodape
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
+.resume
+{  
+    margin: 15px;
+    padding: 10px;
+    width: 95%;
+    height: 400px;
+    background-color: rgb(239, 250, 218);
 }
