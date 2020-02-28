@@ -174,3 +174,44 @@ nav .active a, nav a:hover
 {
     text-decoration: underline;
 }
+.sel
+{
+    text-decoration: underline;
+}
+#bannercontact div
+{
+    margin: 10px;
+    padding: 5px;
+}
+.imgper
+{
+    width: 90px;
+    height: 96px;
+}
+#bannercontact .rds
+{
+    width:30px;
+    height:30px;
+}
+#rodapeabout
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    height: 40px;
+    background-color: rgb(201, 196, 247);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+#corpoabout
+{
+    display: flex;
+    justify-content: center;
+    background-color: #50b6e9;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    align-items: center;
+}
