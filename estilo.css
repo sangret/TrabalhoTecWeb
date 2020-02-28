@@ -212,6 +212,12 @@ nav .active a, nav a:hover
     background-color: #50b6e9;
     background-size: cover;
     background-position: center;
-    height: 550px;
+    height: 450px;
     align-items: center;
+}
+#bannergalery img
+{
+    width: 150px;
+    height: 150px;
+
 }
